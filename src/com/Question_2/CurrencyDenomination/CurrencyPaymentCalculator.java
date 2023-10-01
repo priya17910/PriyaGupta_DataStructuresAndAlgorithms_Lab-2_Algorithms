@@ -6,9 +6,9 @@ public class CurrencyPaymentCalculator {
 	/* CORE METHOD TO CALCULATE PAYMENT USING DIFFERENT CURRENCY DENOMINATIONS */
 	public void calculatePayment(int[] denominations, int amount) {
 		
-		// SORTING THE DENOMINATION ARRAY IN ORDER TO GET HIGHEST VALUE FIRST AND GET THE MINIMUM NUMBER OF NOTES AS RESULT
-		SortAnArrayUsingMergeSort sortArray = new SortAnArrayUsingMergeSort ();
-		sortArray.sort(denominations, 0, denominations.length - 1);
+	// SORTING THE DENOMINATION ARRAY IN ORDER TO GET HIGHEST VALUE FIRST AND GET THE MINIMUM NUMBER OF NOTES AS RESULT
+	SortAnArrayUsingMergeSort sortArray = new SortAnArrayUsingMergeSort ();
+	sortArray.sort(denominations, 0, denominations.length - 1);
 		
         System.out.println("Your payment approach in order to give the minimum number of notes will be:");
 
